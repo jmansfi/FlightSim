@@ -7,6 +7,7 @@ This is a project designed for simulating an entire US Quidditch Nationals tourn
 This file uses the 48 teams qualified for US Quidditch Cup 13 and their corresponding Elo values to run a simulation of that tournament. These teams are organized into six flights of eight teams, as determined by that year's gameplay. This should be easily convertible to other similar Swiss-style tournaments, and many of the functions used should be generalizeable for similar usage.
 
 This file contains the following functions and their usage:
+
 ```scorigami```
 Takes numeric margin of victory variable (score) and returns a randomized actual score number for that games victor, using a normal distribution of values based on the most common previous games with that margin of victory.
 
@@ -47,7 +48,7 @@ Requires the following libraries
 
 ## Authors
 
-Joshua Mansfield
+Joshua Mansfield<br />
 josh.mansfield93@gmail.com
 
 ## Versions
